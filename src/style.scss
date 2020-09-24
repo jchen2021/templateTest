@@ -1,4 +1,41 @@
 body {
-  background-color: blue;
-  height: 95vh;
+  font-size: 62.5%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size:5rem;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  height: 90vh;
+  margin: 3rem auto;
+  align-items: center;
+  background-color: #232f33;
+  text-align: center;
+}
+
+.form-text{
+  display: block; //make block level take only the space they need
+  margin:3rem auto;
+  font-size: 3rem;
+}
+
+#final-tip{
+  display:none;
+  margin: 2rem auto;
+  font-size: 5rem;
+}
+
+label{
+  font-size: 3rem;
+}
+
+#final-amount{
+  font-size: 3rem;
 }
